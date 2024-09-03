@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 70%;
+    margin: auto;
+    background-color:#c3ddf1 ;
+    
+}
+
+
+h3{
+    margin-top: 70px;
+}
+#card-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+#img-box {
+    width: 250px;
+    height: 250px;
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+#img1{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+#but{
+    width: 70px;
+    height: 30px;
+    background-color: rgba(21, 121, 160, 0.918);
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 23%;
+    border-radius: 9px;
+
+}
+#A{
+    color: white;
+}
+#boxForCourser{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+#img-box2 {
+    width: 250px;
+    height: 350px;
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+#img2 {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#img3{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+
+
+nav {
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+
+
+#AA{
+    text-align: center;
+    margin-left: 500px;
+    font-size: x-large;
+}
